@@ -61,9 +61,7 @@ namespace ParkingSlotManagementSystem.View
             pnlLeft.Name = "pnlLeft";
             pnlLeft.Size = new Size(288, 600);
             pnlLeft.TabIndex = 0;
-            // 
-            // picLogo
-            // 
+            
             picLogo.BackColor = Color.Transparent;
             picLogo.BackgroundImage = (Image)resources.GetObject("picLogo.BackgroundImage");
             picLogo.Image = (Image)resources.GetObject("picLogo.Image");
@@ -73,9 +71,7 @@ namespace ParkingSlotManagementSystem.View
             picLogo.SizeMode = PictureBoxSizeMode.Zoom;
             picLogo.TabIndex = 0;
             picLogo.TabStop = false;
-            // 
-            // lblTitle
-            // 
+            
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 23F, FontStyle.Bold);
             lblTitle.ForeColor = Color.FromArgb(25, 43, 68);
@@ -84,9 +80,7 @@ namespace ParkingSlotManagementSystem.View
             lblTitle.Size = new Size(285, 42);
             lblTitle.TabIndex = 1;
             lblTitle.Text = "CREATE ACCOUNT";
-            // 
-            // lblSubtitle
-            // 
+            
             lblSubtitle.AutoSize = true;
             lblSubtitle.Font = new Font("Segoe UI", 10F);
             lblSubtitle.ForeColor = Color.Gray;
@@ -95,9 +89,7 @@ namespace ParkingSlotManagementSystem.View
             lblSubtitle.Size = new Size(238, 19);
             lblSubtitle.TabIndex = 2;
             lblSubtitle.Text = "Register to access the parking system";
-            // 
-            // lblFullName
-            // 
+            
             lblFullName.AutoSize = true;
             lblFullName.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             lblFullName.ForeColor = Color.FromArgb(25, 43, 68);
@@ -106,9 +98,7 @@ namespace ParkingSlotManagementSystem.View
             lblFullName.Size = new Size(76, 19);
             lblFullName.TabIndex = 3;
             lblFullName.Text = "Full Name";
-            // 
-            // lblUsername
-            // 
+           
             lblUsername.AutoSize = true;
             lblUsername.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             lblUsername.ForeColor = Color.FromArgb(25, 43, 68);
@@ -117,9 +107,7 @@ namespace ParkingSlotManagementSystem.View
             lblUsername.Size = new Size(76, 19);
             lblUsername.TabIndex = 5;
             lblUsername.Text = "Username";
-            // 
-            // lblPassword
-            // 
+            
             lblPassword.AutoSize = true;
             lblPassword.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             lblPassword.ForeColor = Color.FromArgb(25, 43, 68);
@@ -128,9 +116,7 @@ namespace ParkingSlotManagementSystem.View
             lblPassword.Size = new Size(73, 19);
             lblPassword.TabIndex = 7;
             lblPassword.Text = "Password";
-            // 
-            // lblConfirmPassword
-            // 
+           
             lblConfirmPassword.AutoSize = true;
             lblConfirmPassword.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             lblConfirmPassword.ForeColor = Color.FromArgb(25, 43, 68);
@@ -139,43 +125,33 @@ namespace ParkingSlotManagementSystem.View
             lblConfirmPassword.Size = new Size(131, 19);
             lblConfirmPassword.TabIndex = 9;
             lblConfirmPassword.Text = "Confirm Password";
-            // 
-            // txtFullName
-            // 
+            
             txtFullName.Font = new Font("Segoe UI", 11F);
             txtFullName.Location = new Point(378, 170);
             txtFullName.Name = "txtFullName";
             txtFullName.Size = new Size(430, 27);
             txtFullName.TabIndex = 4;
-            // 
-            // txtUsername
-            // 
+           
             txtUsername.Font = new Font("Segoe UI", 11F);
             txtUsername.Location = new Point(378, 240);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(430, 27);
             txtUsername.TabIndex = 6;
-            // 
-            // txtPassword
-            // 
+           
             txtPassword.Font = new Font("Segoe UI", 11F);
             txtPassword.Location = new Point(378, 310);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(430, 27);
             txtPassword.TabIndex = 8;
             txtPassword.UseSystemPasswordChar = true;
-            // 
-            // txtConfirmPassword
-            // 
+           
             txtConfirmPassword.Font = new Font("Segoe UI", 11F);
             txtConfirmPassword.Location = new Point(378, 380);
             txtConfirmPassword.Name = "txtConfirmPassword";
             txtConfirmPassword.Size = new Size(430, 27);
             txtConfirmPassword.TabIndex = 10;
             txtConfirmPassword.UseSystemPasswordChar = true;
-            // 
-            // btnRegister
-            // 
+            
             btnRegister.BackColor = Color.FromArgb(25, 43, 68);
             btnRegister.FlatAppearance.BorderSize = 0;
             btnRegister.FlatStyle = FlatStyle.Flat;
@@ -187,9 +163,7 @@ namespace ParkingSlotManagementSystem.View
             btnRegister.TabIndex = 11;
             btnRegister.Text = "REGISTER";
             btnRegister.UseVisualStyleBackColor = false;
-            // 
-            // btnBackToLogin
-            // 
+           
             btnBackToLogin.BackColor = Color.FromArgb(25, 43, 68);
             btnBackToLogin.FlatAppearance.BorderSize = 0;
             btnBackToLogin.FlatStyle = FlatStyle.Flat;
@@ -201,9 +175,7 @@ namespace ParkingSlotManagementSystem.View
             btnBackToLogin.TabIndex = 12;
             btnBackToLogin.Text = "BACK TO LOGIN";
             btnBackToLogin.UseVisualStyleBackColor = false;
-            // 
-            // RegisterForm
-            // 
+            
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(245, 247, 250);

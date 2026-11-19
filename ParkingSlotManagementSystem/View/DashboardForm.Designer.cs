@@ -359,9 +359,7 @@ namespace ParkingSlotManagementSystem.View
             pnlRegisteredOwners.Name = "pnlRegisteredOwners";
             pnlRegisteredOwners.Size = new Size(220, 105);
             pnlRegisteredOwners.TabIndex = 3;
-            // 
-            // lblRegisteredOwnersTitle
-            // 
+           
             lblRegisteredOwnersTitle.AutoSize = true;
             lblRegisteredOwnersTitle.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblRegisteredOwnersTitle.ForeColor = Color.FromArgb(25, 43, 68);
@@ -370,9 +368,7 @@ namespace ParkingSlotManagementSystem.View
             lblRegisteredOwnersTitle.Size = new Size(131, 15);
             lblRegisteredOwnersTitle.TabIndex = 0;
             lblRegisteredOwnersTitle.Text = "REGISTERED OWNERS";
-            // 
-            // lblRegisteredOwnersValue
-            // 
+         
             lblRegisteredOwnersValue.AutoSize = true;
             lblRegisteredOwnersValue.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             lblRegisteredOwnersValue.ForeColor = Color.FromArgb(46, 139, 104);
@@ -381,9 +377,7 @@ namespace ParkingSlotManagementSystem.View
             lblRegisteredOwnersValue.Size = new Size(35, 41);
             lblRegisteredOwnersValue.TabIndex = 1;
             lblRegisteredOwnersValue.Text = "0";
-            // 
-            // pnlTodayEntries
-            // 
+            
             pnlTodayEntries.BackColor = Color.White;
             pnlTodayEntries.BorderStyle = BorderStyle.FixedSingle;
             pnlTodayEntries.Controls.Add(lblTodayEntriesTitle);
@@ -392,9 +386,7 @@ namespace ParkingSlotManagementSystem.View
             pnlTodayEntries.Name = "pnlTodayEntries";
             pnlTodayEntries.Size = new Size(220, 105);
             pnlTodayEntries.TabIndex = 4;
-            // 
-            // lblTodayEntriesTitle
-            // 
+           
             lblTodayEntriesTitle.AutoSize = true;
             lblTodayEntriesTitle.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblTodayEntriesTitle.ForeColor = Color.FromArgb(25, 43, 68);
@@ -403,9 +395,7 @@ namespace ParkingSlotManagementSystem.View
             lblTodayEntriesTitle.Size = new Size(107, 15);
             lblTodayEntriesTitle.TabIndex = 0;
             lblTodayEntriesTitle.Text = "TODAY'S ENTRIES";
-            // 
-            // lblTodayEntriesValue
-            // 
+            
             lblTodayEntriesValue.AutoSize = true;
             lblTodayEntriesValue.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             lblTodayEntriesValue.ForeColor = Color.FromArgb(46, 139, 104);
@@ -414,9 +404,7 @@ namespace ParkingSlotManagementSystem.View
             lblTodayEntriesValue.Size = new Size(35, 41);
             lblTodayEntriesValue.TabIndex = 1;
             lblTodayEntriesValue.Text = "0";
-            // 
-            // pnlTodayRevenue
-            // 
+            
             pnlTodayRevenue.BackColor = Color.White;
             pnlTodayRevenue.BorderStyle = BorderStyle.FixedSingle;
             pnlTodayRevenue.Controls.Add(lblTodayRevenueTitle);
@@ -425,9 +413,7 @@ namespace ParkingSlotManagementSystem.View
             pnlTodayRevenue.Name = "pnlTodayRevenue";
             pnlTodayRevenue.Size = new Size(220, 105);
             pnlTodayRevenue.TabIndex = 5;
-            // 
-            // lblTodayRevenueTitle
-            // 
+            
             lblTodayRevenueTitle.AutoSize = true;
             lblTodayRevenueTitle.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblTodayRevenueTitle.ForeColor = Color.FromArgb(25, 43, 68);
@@ -436,9 +422,7 @@ namespace ParkingSlotManagementSystem.View
             lblTodayRevenueTitle.Size = new Size(112, 15);
             lblTodayRevenueTitle.TabIndex = 0;
             lblTodayRevenueTitle.Text = "TODAY'S REVENUE";
-            // 
-            // lblTodayRevenueValue
-            // 
+             
             lblTodayRevenueValue.AutoSize = true;
             lblTodayRevenueValue.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             lblTodayRevenueValue.ForeColor = Color.FromArgb(46, 139, 104);
@@ -447,9 +431,7 @@ namespace ParkingSlotManagementSystem.View
             lblTodayRevenueValue.Size = new Size(109, 41);
             lblTodayRevenueValue.TabIndex = 1;
             lblTodayRevenueValue.Text = "0 RWF";
-            // 
-            // lblUserRole
-            // 
+             
             lblUserRole.AutoSize = true;
             lblUserRole.ForeColor = Color.FromArgb(46, 139, 104);
             lblUserRole.Location = new Point(16, 90);
@@ -457,18 +439,14 @@ namespace ParkingSlotManagementSystem.View
             lblUserRole.Size = new Size(80, 15);
             lblUserRole.TabIndex = 0;
             lblUserRole.Text = "Administrator";
-            // 
-            // lblDate
-            // 
+          
             lblDate.AutoSize = true;
             lblDate.Location = new Point(16, 65);
             lblDate.Name = "lblDate";
             lblDate.Size = new Size(105, 15);
             lblDate.TabIndex = 1;
             lblDate.Text = "17 November 2026";
-            // 
-            // lblWelcome
-            // 
+            
             lblWelcome.AutoSize = true;
             lblWelcome.Font = new Font("Segoe UI", 11F);
             lblWelcome.ForeColor = Color.FromArgb(23, 33, 43);
@@ -477,9 +455,7 @@ namespace ParkingSlotManagementSystem.View
             lblWelcome.Size = new Size(110, 20);
             lblWelcome.TabIndex = 2;
             lblWelcome.Text = "Welcome back!";
-            // 
-            // lblDashboardTitle
-            // 
+            
             lblDashboardTitle.AutoSize = true;
             lblDashboardTitle.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             lblDashboardTitle.ForeColor = Color.FromArgb(23, 33, 43);
@@ -488,9 +464,7 @@ namespace ParkingSlotManagementSystem.View
             lblDashboardTitle.Size = new Size(286, 37);
             lblDashboardTitle.TabIndex = 3;
             lblDashboardTitle.Text = "Dashboard Overview";
-            // 
-            // DashboardForm
-            // 
+           
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;

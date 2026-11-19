@@ -16,28 +16,26 @@ namespace ParkingSlotManagementSystem.View
         {
             InitializeComponent();
 
-            // Button events
             btnAdd.Click += btnAdd_Click;
             btnUpdate.Click += btnUpdate_Click;
             btnDelete.Click += btnDelete_Click;
             btnClear.Click += btnClear_Click;
 
-            // Grid event
+           
             dgvParkingSlots.CellClick += dgvParkingSlots_CellClick;
 
-            // Input font sizes
+           
             textBox1.Font = new Font("Segoe UI", 9F);
             txtLocation.Font = new Font("Segoe UI", 9F);
             cmbSlotType.Font = new Font("Segoe UI", 9F);
             cmbVehicleType.Font = new Font("Segoe UI", 9F);
             cmbStatus.Font = new Font("Segoe UI", 9F);
 
-            // Dropdown settings
+           
             cmbSlotType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbVehicleType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbStatus.DropDownStyle = ComboBoxStyle.DropDownList;
 
-            // DataGridView appearance
             dgvParkingSlots.Font = new Font("Segoe UI", 9F);
 
             dgvParkingSlots.ColumnHeadersDefaultCellStyle.Font =
@@ -109,7 +107,6 @@ namespace ParkingSlotManagementSystem.View
             }
         }
 
-        // ADD SLOT
         private void btnAdd_Click(object sender, EventArgs e)
         {
             string slotNumber = textBox1.Text.Trim();

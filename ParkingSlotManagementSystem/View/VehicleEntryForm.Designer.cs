@@ -97,9 +97,7 @@ namespace ParkingSlotManagementSystem.View
             lblTitle.Size = new Size(207, 36);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "VEHICLE ENTRY";
-            // 
-            // lblSubtitle
-            // 
+           
             lblSubtitle.AutoSize = true;
             lblSubtitle.Font = new Font("Segoe UI", 9F);
             lblSubtitle.ForeColor = Color.LightGray;
@@ -108,9 +106,7 @@ namespace ParkingSlotManagementSystem.View
             lblSubtitle.Size = new Size(277, 15);
             lblSubtitle.TabIndex = 1;
             lblSubtitle.Text = "Register incoming vehicles and assign parking slots";
-            // 
-            // grpVehicleInformation
-            // 
+            
             grpVehicleInformation.Controls.Add(cmbParkingSlot);
             grpVehicleInformation.Controls.Add(lblPlateNumber);
             grpVehicleInformation.Controls.Add(cmbPlateNumber);
@@ -138,78 +134,60 @@ namespace ParkingSlotManagementSystem.View
             cmbParkingSlot.Name = "cmbParkingSlot";
             cmbParkingSlot.Size = new Size(165, 25);
             cmbParkingSlot.TabIndex = 10;
-            // 
-            // lblPlateNumber
-            // 
+             
             lblPlateNumber.AutoSize = true;
             lblPlateNumber.Location = new Point(30, 40);
             lblPlateNumber.Name = "lblPlateNumber";
             lblPlateNumber.Size = new Size(102, 19);
             lblPlateNumber.TabIndex = 0;
             lblPlateNumber.Text = "Plate Number";
-            // 
-            // cmbPlateNumber
-            // 
+             
             cmbPlateNumber.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbPlateNumber.Location = new Point(30, 65);
             cmbPlateNumber.Name = "cmbPlateNumber";
             cmbPlateNumber.Size = new Size(430, 25);
             cmbPlateNumber.TabIndex = 1;
-            // 
-            // lblOwnerName
-            // 
+           
             lblOwnerName.AutoSize = true;
             lblOwnerName.Location = new Point(550, 40);
             lblOwnerName.Name = "lblOwnerName";
             lblOwnerName.Size = new Size(97, 19);
             lblOwnerName.TabIndex = 2;
             lblOwnerName.Text = "Owner Name";
-            // 
-            // txtOwnerName
-            // 
+            
             txtOwnerName.Location = new Point(550, 65);
             txtOwnerName.Name = "txtOwnerName";
             txtOwnerName.ReadOnly = true;
             txtOwnerName.Size = new Size(430, 25);
             txtOwnerName.TabIndex = 3;
-            // 
-            // lblVehicleType
-            // 
+          
             lblVehicleType.AutoSize = true;
             lblVehicleType.Location = new Point(30, 115);
             lblVehicleType.Name = "lblVehicleType";
             lblVehicleType.Size = new Size(92, 19);
             lblVehicleType.TabIndex = 4;
             lblVehicleType.Text = "Vehicle Type";
-            // 
-            // txtVehicleType
-            // 
+           
             txtVehicleType.Location = new Point(30, 140);
             txtVehicleType.Name = "txtVehicleType";
             txtVehicleType.ReadOnly = true;
             txtVehicleType.Size = new Size(430, 25);
             txtVehicleType.TabIndex = 5;
-            // 
-            // lblParkingSlot
-            // 
+            
             lblParkingSlot.AutoSize = true;
             lblParkingSlot.Location = new Point(550, 115);
             lblParkingSlot.Name = "lblParkingSlot";
             lblParkingSlot.Size = new Size(158, 19);
             lblParkingSlot.TabIndex = 6;
             lblParkingSlot.Text = "Available Parking Slot";
-            // 
-            // lblEntryTime
-            // 
+            
             lblEntryTime.AutoSize = true;
             lblEntryTime.Location = new Point(30, 175);
             lblEntryTime.Name = "lblEntryTime";
             lblEntryTime.Size = new Size(145, 19);
             lblEntryTime.TabIndex = 8;
             lblEntryTime.Text = "Entry Date and Time";
-            // 
-            // dtpEntryTime
-            // 
+           
             dtpEntryTime.CustomFormat = "dd/MM/yyyy HH:mm";
             dtpEntryTime.Format = DateTimePickerFormat.Custom;
             dtpEntryTime.Location = new Point(30, 195);
@@ -217,9 +195,7 @@ namespace ParkingSlotManagementSystem.View
             dtpEntryTime.ShowUpDown = true;
             dtpEntryTime.Size = new Size(430, 25);
             dtpEntryTime.TabIndex = 9;
-            // 
-            // btnRegisterEntry
-            // 
+           
             btnRegisterEntry.BackColor = Color.FromArgb(107, 114, 128);
             btnRegisterEntry.FlatAppearance.BorderSize = 0;
             btnRegisterEntry.FlatStyle = FlatStyle.Flat;
@@ -231,9 +207,7 @@ namespace ParkingSlotManagementSystem.View
             btnRegisterEntry.TabIndex = 2;
             btnRegisterEntry.Text = "REGISTER ENTRY";
             btnRegisterEntry.UseVisualStyleBackColor = false;
-            // 
-            // btnClear
-            // 
+           
             btnClear.BackColor = Color.FromArgb(107, 114, 128);
             btnClear.FlatAppearance.BorderSize = 0;
             btnClear.FlatStyle = FlatStyle.Flat;
@@ -245,9 +219,7 @@ namespace ParkingSlotManagementSystem.View
             btnClear.TabIndex = 3;
             btnClear.Text = "CLEAR";
             btnClear.UseVisualStyleBackColor = false;
-            // 
-            // btnRefresh
-            // 
+            
             btnRefresh.BackColor = Color.FromArgb(107, 114, 128);
             btnRefresh.FlatAppearance.BorderSize = 0;
             btnRefresh.FlatStyle = FlatStyle.Flat;
@@ -259,9 +231,7 @@ namespace ParkingSlotManagementSystem.View
             btnRefresh.TabIndex = 4;
             btnRefresh.Text = "REFRESH";
             btnRefresh.UseVisualStyleBackColor = false;
-            // 
-            // btnDashboard
-            // 
+            
             btnDashboard.BackColor = Color.FromArgb(107, 114, 128);
             btnDashboard.FlatAppearance.BorderSize = 0;
             btnDashboard.FlatStyle = FlatStyle.Flat;
@@ -273,9 +243,7 @@ namespace ParkingSlotManagementSystem.View
             btnDashboard.TabIndex = 5;
             btnDashboard.Text = "BACK TO DASHBOARD";
             btnDashboard.UseVisualStyleBackColor = false;
-            // 
-            // lblRecentActivity
-            // 
+           
             lblRecentActivity.AutoSize = true;
             lblRecentActivity.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblRecentActivity.ForeColor = Color.FromArgb(25, 43, 68);
@@ -284,9 +252,7 @@ namespace ParkingSlotManagementSystem.View
             lblRecentActivity.Size = new Size(206, 21);
             lblRecentActivity.TabIndex = 6;
             lblRecentActivity.Text = "RECENT VEHICLE ENTRIES";
-            // 
-            // dgvVehicleEntries
-            // 
+          
             dgvVehicleEntries.AllowUserToAddRows = false;
             dgvVehicleEntries.AllowUserToDeleteRows = false;
             dgvVehicleEntries.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -310,9 +276,7 @@ namespace ParkingSlotManagementSystem.View
             dgvVehicleEntries.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvVehicleEntries.Size = new Size(1040, 210);
             dgvVehicleEntries.TabIndex = 7;
-            // 
-            // VehicleEntryForm
-            // 
+            
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(246, 248, 247);
